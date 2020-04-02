@@ -1,0 +1,286 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    /*background-color: rgba(255, 150, 31, 0.478);*/
+}
+
+
+header {
+    background-image: url(../desk-with-wireframe.jpg);
+    background-size: cover;
+    /*height: 500px;*/
+}
+/*
+@media (min-width: 800px) {
+    header {
+        height: 85vh;
+    }
+}
+*/
+
+header {
+    display: flex;
+}
+
+.headings {
+    margin-top: 75px;
+    text-align: center;
+    width: 100%;
+}
+
+header h1 {
+    background-color: rgba(252, 252, 252, 0.356);
+    color: teal;
+    font-size: 4em;
+    font-size: 10vh; 
+}
+
+header h2 {
+    background-color: rgba(95, 170, 204, 0.631);
+    color: rgb(26, 14, 1);
+    font-size: 6vh;
+}
+
+h2 {
+    color: rgb(0, 128, 128);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2em;
+    font-size: 4vw;
+    text-align: center;
+}
+
+h4 {
+    color: teal;
+    margin-top: 0px;
+}
+
+p {
+    color: #483D3F;
+}
+
+.portfolio {
+    /*margin-left: 5vw;*/
+    background-color: rgba(255, 150, 31, 0.478);
+    background-color: rgb(244, 235, 217);
+    background-color: wheat;
+    background-color: moccasin;
+    padding: 3vh;
+}
+
+.portfolio-heading {
+    background-color: rgba(255, 150, 31, 0.478);
+    background-color: rgba(252, 194, 128, 0.473);
+    background-color: rgb(244, 235, 217);
+    background-color: moccasin;
+    display: flex;
+    height: 10vh;
+    justify-content: center;
+    margin-bottom: 0vh;
+    padding-bottom: 3vh;
+    padding-top: 2vh;
+   
+   /* background-image: linear-gradient(rgba(95, 170, 204, 0.631),rgba(255, 150, 31, 0.478));*/
+   
+    /* background-color: #5faacca1;
+    background: linear-gradient(rgba(0, 128, 128,.3),rgba(95, 170, 204, 0.631)) */
+    
+    /*Find out how to remove body background-color from specific section*/
+}
+
+.half-width h3 {
+    margin: .5vh;
+}
+
+.section-heading {
+    font-size: 8vh;
+    margin-top: 0px;
+}
+
+.site-image:hover {
+    filter: brightness(90%);
+    border: 1px solid whitesmoke;
+}
+
+.site-image-link {
+    display: inline-block;
+    height: fit-content;
+}
+
+.jubilee-austen-project {
+    flex-wrap: wrap;
+    margin: 2vh 0;
+}
+
+@media (min-width: 600px) {
+    .jubilee-austen-project {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.jubilee-photo {
+    box-sizing: border-box;
+    display: flex;
+    flex-basis: 49%;
+}
+
+.jubilee-text {
+    flex-basis: 49%;
+}
+
+.rogue-pickings-project {
+    flex-wrap: wrap;
+    margin: 2vh 0;
+}
+
+@media (min-width: 600px) {
+    .rogue-pickings-project {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.rogue-pickings-photo {
+    box-sizing: border-box;
+    display: flex;
+    flex-basis: 49%;
+}
+
+.rogue-pickings-text {
+    flex-basis: 49%;
+}
+
+.decemberists-project {
+    flex-wrap: wrap;
+    margin: 2vh 0;
+}
+
+@media (min-width: 600px) {
+    .decemberists-project {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.decemberists-photo {
+    box-sizing: border-box;
+    display: flex; 
+    flex-basis: 49%;   
+}
+
+.decemberists-text {
+    flex-basis: 49%;
+}
+
+.photo {
+    border: 1px solid lightgrey;
+    margin: .5vh auto -.8vh auto;
+    max-width: 100%;
+}
+
+.about-me {
+    background-color: #483D3F;
+    padding: 3vh;
+}
+
+.about-me-box {
+    flex-wrap: wrap;
+}
+
+@media (min-width: 600px) {
+    .about-me-box {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.about-me-photo {
+    flex-basis: 40%;
+}
+
+.about-me-text {
+    color: rgb(244, 235, 217);
+    flex-basis: 59%;
+}
+
+.about-me-text p {
+    color: rgb(244, 235, 217);
+}
+
+.footer {
+    /*
+    background-color: #058ED9;
+    background-color: teal;
+    */
+    background-image: url(../laptop-in-bright-room.jpg);
+    background-size: cover;
+    color: teal;
+    padding: 3vh;
+}
+
+.footer h2 {
+    color: teal;
+}
+
+.footer h3 {
+    background-color: rgba(95, 170, 204, 0.631);
+    color: moccasin;
+    font-size: 30px;
+}
+
+.footer p {
+    background-color:rgba(252, 252, 252, 0.356);
+    color: teal;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: lowercase;
+}
+
+.photo-selfie {
+    margin: auto;
+    max-width: 100%;
+}
+
+.footer-box {
+    flex-wrap: wrap;
+}
+
+@media (min-width: 700px) {
+    .footer-box {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.hire-me {
+    flex: 1;
+    text-align: center;
+}
+
+.follow-me {
+    flex: 1;
+    text-align: center;
+}
+
+.meet-me {
+    border: 1px solid white;
+    flex: 1;
+    text-align: center;
+}
+
+.social-media-icon {
+    max-width: 8vw;
+}
+
+.footer .copyright {
+    background-color: transparent;
+    color: teal;
+    font-size: small;
+    font-weight: normal;
+    text-align: center;
+    text-transform: capitalize;
+}
